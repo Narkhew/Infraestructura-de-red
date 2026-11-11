@@ -180,3 +180,25 @@ Thumbs.db
 1. **Maqueta funcional:** archivo `.pkt` con las configuraciones **guardadas**.
 2. **Expediente técnico:** PDF con calidad de informe profesional.
 3. **Demostración técnica:** presentación en vivo; el profesor puede preguntar a cualquiera sobre cualquier parte.
+
+## Estructura del repo
+
+```text
+equipo/
+  R1_brisa/ · R2_gonzalo/ · R3_maki/ · R4_estrella/
+    configs/      ← running-config y comandos
+    evidencias/   ← capturas y pruebas (ping, show, etc.)
+    partes/       ← tu parte del .pkt antes de integrarla al MASTER
+    TAREAS.md     ← asignadas / en progreso / terminadas
+expediente/       ← documento final y entregables
+maqueta/
+  MASTER/         ← versión integrada del .pkt
+  respaldos/      ← copias de versiones anteriores
+```
+
+Dónde sube cada quién sus archivos:
+
+- **Cada integrante solo trabaja dentro de su carpeta en `equipo/`** (R1 Brisa, R2 Gonzalo, R3 Maki, R4 Estrella).
+- **`maqueta/MASTER/`** guarda la versión integrada del `.pkt` (`Proyecto_Red_vXX.pkt`); solo se toca al integrar.
+- **`maqueta/respaldos/`** guarda copias de versiones anteriores.
+- **`expediente/`** guarda el documento final y los entregables.
